@@ -3,6 +3,7 @@ import fs from "fs";
 import { fileURLToPath } from "url";
 import inquirer from "inquirer";
 import { copyDir } from "../util/index.js";
+import chalk from "chalk";
 
 const __dirname = fileURLToPath(import.meta.url);
 const CMDS = [
@@ -29,7 +30,7 @@ function initAction() {
           {
             key: "react-ts",
             name: "react-ts",
-            value: "react",
+            value: "react-ts",
           },
           {
             key: "vue-ts",
@@ -60,6 +61,7 @@ function initAction() {
           path.join(__dirname, `../../template/${templateName}`),
           path.join("./", name)
         );
+        console.log(chalk.bgGreen("create project successfully"));
       });
     });
 }

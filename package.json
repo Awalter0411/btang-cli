@@ -1,20 +1,30 @@
 {
   "name": "btang-cli",
-  "version": "1.0.0",
-  "description": "a cli tool to create project about react, vue",
+  "version": "1.0.1",
+  "description": "a cli tool to create project about react,vue",
   "main": "/src/core/index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bantangzm/btang-cli"
+  },
+  "homepage": "https://github.com/bantangzm/btang-cli#readme",
+  "keywords": [
+    "cli",
+    "starter",
+    "template",
+    "vue",
+    "react"
+  ],
+  "author": "bantangzm",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^5.2.0",
     "commander": "^10.0.1",
     "execa": "^7.1.1",
-    "express": "^4.18.2",
     "inquirer": "^9.2.0",
     "ora": "^6.3.0"
   }
