@@ -1,6 +1,6 @@
 {
   "name": "@bantangzm/btang-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a cli tool to create project about react,vue",
   "main": "/src/core/index.js",
   "type": "module",
